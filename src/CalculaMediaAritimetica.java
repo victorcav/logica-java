@@ -10,15 +10,19 @@ Suponha um programa que solicita ao usuario dois numeros e depois mostra a media
             Media aritimetica = 4.5
  */
 
+import java.util.Scanner;
+
 public class CalculaMediaAritimetica {
 
     public static void main(String[] args){
 
+        Scanner scanner = new Scanner(System.in);
+
         // **ENTRADA DE DADOS**
         System.out.println("Digite o primeiro valor:");
-        double primeiroNumero = 3;
+        double primeiroNumero = scanner.nextDouble();
 
-        System.out.println("Digite o segundo numero: ");
+        System.out.println("Digite o segundo valor: ");
         double segundoNumero = 6;
 
         //**PROCESSAMENTO**
