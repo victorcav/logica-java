@@ -24,11 +24,8 @@ public class TrabalhandoComTexto {
                 //**PROCESSAMENTO**
                 String valoresConcatenados = "Oi, meu nome é " + nome + ", tenho " + idade + " anos, minha altura é " + altura + " metros e estou pesando " + peso + " Kg";
 
-                double imc = peso / (altura * altura);
-
                 //**SAIDA DE DADOS**
                 System.out.println(valoresConcatenados);
-                System.out.println("Seu IMC é " + imc);
 
                 scanner.close();
 
