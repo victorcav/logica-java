@@ -1,8 +1,11 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class CalculoImc {
 
     public  static void main (String[] args){
+
+        Locale.setDefault(Locale.US);
 
         Scanner scanner = new Scanner(System.in);
 
@@ -17,7 +20,8 @@ public class CalculoImc {
         double imc = peso / (altura * altura);
 
         //**SAIDA DE DADOS**
-        System.out.println("Seu IMC é " + imc);
+        System.out.print("Seu IMC é ");
+        System.out.printf("%.2f%n", imc);
 
         scanner.close();
 
