@@ -30,5 +30,6 @@ public class CalculaMediaAritimetica {
 
         //**SAIDA DE DADOS**
         System.out.println("O resultado eh " + resultado);
+
     }
 }
