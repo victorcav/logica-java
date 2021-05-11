@@ -1,7 +1,7 @@
 /* Criar uma mensagem que solicite o nome, idade, peso, altura do usuario */
 
 import java.util.Scanner;
-
+// https://docs.oracle.com/javase/tutorial/java/data/numberformat.html
 public class TrabalhandoComTexto {
 
         public  static void main (String[] args){
