@@ -20,8 +20,7 @@ public class CalculoImc {
         double imc = peso / (altura * altura);
 
         //**SAIDA DE DADOS**
-        System.out.print("Seu IMC é ");
-        System.out.printf("%.2f%n", imc);
+        System.out.printf("Seu IMC é %.2f%n",imc);
 
         scanner.close();
 

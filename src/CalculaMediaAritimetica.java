@@ -29,7 +29,7 @@ public class CalculaMediaAritimetica {
         double resultado = (primeiroNumero+segundoNumero) / 2;
 
         //**SAIDA DE DADOS**
-        System.out.println("O resultado eh " + resultado);
+        System.out.printf("O resultado eh %.2f%n", resultado);
 
     }
 }

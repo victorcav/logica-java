@@ -21,11 +21,9 @@ public class TrabalhandoComTexto {
                 System.out.println("Digite a seu peso: ");
                 double peso = scanner.nextDouble();
 
-                //**PROCESSAMENTO**
-                String valoresConcatenados = "Oi, meu nome é " + nome + ", tenho " + idade + " anos, minha altura é " + altura + " metros e estou pesando " + peso + " Kg";
-
                 //**SAIDA DE DADOS**
-                System.out.println(valoresConcatenados);
+                System.out.printf("Oi, meu nome é %s tenho %d anos, minha altura é %f metros e estou pesando %f Kg",nome, idade, altura, peso);
+
 
                 scanner.close();
 
