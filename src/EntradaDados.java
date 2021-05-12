@@ -52,7 +52,6 @@ public class EntradaDados {
         System.out.println("s2 -> " + s2);
         System.out.println("s3 -> " + s3);
 
-
         scanner.close();
 
     }
