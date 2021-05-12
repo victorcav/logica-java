@@ -23,6 +23,7 @@ public class FuncaoDeBaskara {
         double x1 = (-b + Math.sqrt(delta)) / (2.0 * a);
         double x2 = (-b - Math.sqrt(delta)) / (2.0 * a);
 
+        System.out.printf("O valor de delta é: %f%n", delta);
         System.out.printf("O valor de X1 é: %f%n", x1);
         System.out.printf("O valor de X2 é: %f%n", x2);
 
