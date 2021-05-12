@@ -35,19 +35,22 @@ public class EntradaDados {
 
         System.out.printf("%s %d %f", x, y, z);
 
+        // Corrigindo erro quando aperta a tecla Enter:
+
         int w;
         String s1, s2, s3;
 
         w = scanner.nextInt();
+        scanner.nextLine();
         s1 = scanner.nextLine();
         s2 = scanner.nextLine();
         s3 = scanner.nextLine();
 
         System.out.println("Dados Digitados: ");
-        System.out.println(w);
-        System.out.println(s1);
-        System.out.println(s2);
-        System.out.println(s3);
+        System.out.println("W -> " + w);
+        System.out.println("s1 -> " + s1);
+        System.out.println("s2 -> " + s2);
+        System.out.println("s3 -> " + s3);
 
 
         scanner.close();
