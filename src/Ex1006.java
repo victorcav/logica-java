@@ -49,5 +49,7 @@ public class Ex1006 {
 
         System.out.printf("MEDIA = %.1f%n", media);
 
+        scanner.close();
+
     }
 }
