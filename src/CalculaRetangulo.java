@@ -5,10 +5,15 @@ public class CalculaRetangulo {
 
     public static void main(String[] args) {
 
+        Locale.setDefault(Locale.US);
 
-        double base = 5.0;
+        Scanner scanner = new Scanner(System.in);
 
-        double altura = 4.0;
+        System.out.println("Informe a base do retangulo: ");
+        double base = scanner.nextDouble();
+
+        System.out.println("Informe a altura do retangulo: ");
+        double altura = scanner.nextDouble();
 
         double perimetro = (2 * base) + (2 * altura);
 
@@ -16,11 +21,13 @@ public class CalculaRetangulo {
 
         double diagonal = Math.sqrt(Math.pow(base, 2.0) + Math.pow(altura, 2.0));
 
-        System.out.println("AREA = " + area);
-        System.out.println("PERIMETRO = " + perimetro);
-        System.out.printf("DIAGONAL = " + diagonal);
+        System.out.println("----------------------------");
+        System.out.printf("AREA = %.4f%n", area);
+        System.out.printf("PERIMETRO = %.4f%n", perimetro);
+        System.out.printf("DIAGONAL = %.4f%n", diagonal);
+        System.out.println("----------------------------");
 
-
+        scanner.close();
     }
 
 }
